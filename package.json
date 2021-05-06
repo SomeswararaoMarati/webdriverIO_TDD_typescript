@@ -1,0 +1,35 @@
+{
+  "name": "webdriverio_javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@log4js-node/log4js-api": "^1.0.2",
+    "@rpii/wdio-html-reporter": "^6.3.2",
+    "@wdio/allure-reporter": "^7.5.2",
+    "@wdio/cli": "^7.5.2",
+    "@wdio/dot-reporter": "^7.5.2",
+    "@wdio/local-runner": "^7.5.4",
+    "@wdio/mocha-framework": "^7.5.3",
+    "@wdio/selenium-standalone-service": "^7.5.3",
+    "@wdio/spec-reporter": "^7.5.3",
+    "@wdio/sync": "^7.5.2",
+    "chromedriver": "^90.0.0",
+    "wdio-chromedriver-service": "^7.0.0",
+    "wdio-html-reporter": "^1.0.2",
+    "wdio-json-reporter": "^2.0.0",
+    "wdio-mochawesome-reporter": "^4.0.0",
+    "wdio-video-reporter": "^3.1.1",
+    "wdio-wait-for": "^2.0.3",
+    "webdriverio": "^7.5.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "path": "^0.12.7"
+  }
+}
