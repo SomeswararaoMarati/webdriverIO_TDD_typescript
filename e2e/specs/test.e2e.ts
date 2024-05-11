@@ -1,5 +1,5 @@
-import LoginPage from '../../pageObjects/login.page.js'
-import HomePage from '../../pageObjects/home.page.js'
+import LoginPage from '../pageObjects/login.page.js'
+import HomePage from '../pageObjects/home.page.js'
 
 
 describe('My Login application', () => {
