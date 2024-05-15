@@ -63,7 +63,7 @@ export const config: Options.Testrunner = {
           'moz:firefoxOptions': {
             args: ['-headless']  // Add this argument for headless mode
           }
-        }
+        },
     
 
     //
