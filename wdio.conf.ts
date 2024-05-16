@@ -30,7 +30,7 @@ export const config: Options.Testrunner = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './e2e/specs/**/checkbox.spec.ts'
+        './e2e/specs/**/*.spec.ts'
     ],
     // Patterns to exclude.
     exclude: [
