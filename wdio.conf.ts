@@ -59,8 +59,13 @@ export const config: Options.Testrunner = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        browserName: 'firefox',
+        browserName: 'chrome',
+        browserVersion: 'stable',
+        // 'goog:chromeOptions': {
+        //     args: ['headless', 'disable-gpu']
+        // }
     }],
+
 
     //
     // ===================
@@ -69,7 +74,7 @@ export const config: Options.Testrunner = {
     // Define all options that are relevant for the WebdriverIO instance here
     //
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    logLevel: 'info',
+    logLevel: 'silent',
     //
     // Set specific log levels per logger
     // loggers:
