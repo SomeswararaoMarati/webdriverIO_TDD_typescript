@@ -30,7 +30,7 @@ export const config: Options.Testrunner = {
     // of the config file unless it's absolute.
     //
     specs: [
-        './e2e/specs/**/webtable.spec.ts'
+        './e2e/specs/**/*.spec.ts'
     ],
     // Patterns to exclude.
     exclude: [
@@ -96,7 +96,7 @@ export const config: Options.Testrunner = {
     // baseUrl: 'http://localhost:8080',
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 90000,
+    waitforTimeout: 10000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
