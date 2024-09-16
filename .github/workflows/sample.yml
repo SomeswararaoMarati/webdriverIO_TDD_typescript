@@ -20,5 +20,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run tests (headless)
+      - name: Run tests (headless) //Test
         run: npm run wdio
